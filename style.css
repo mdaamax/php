@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', 'Arial', sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:black;
+}
+
+.card {
+    background: #fff;
+    padding: 2rem 3rem;
+    border-radius: 1rem;
+    max-width: 500px;
+    box-shadow: 4px 4px 10px 2px #00000055;
+    transition: all 0.3s ease-out;
+}
+
+.card:hover {
+    box-shadow: 6px 6px 25px 4px #00000055;
+    transform: translateY(-0.5rem);
+}
